@@ -1,0 +1,92 @@
+### Python ###
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+pythonenv/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test/coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+### Environment ###
+# Sensitive credentials
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+secrets.ini
+config.json
+credentials.json
+
+### Development ###
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases
+*.log
+logs/
+*.sqlite
+*.db
+*.db-journal
+*.sql
+data/
+
+### Notion ###
+# Local backups/caches
+*.backup
+*.tmp
+notion_backups/
+
+### Discord ###
+# Bot-specific cache
+discord_cache/
+session_store/
+
+### Build/Distribution ###
+# PyInstaller
+dist/
+build/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Installer
+*.msi
+*.dmg
+*.pkg
